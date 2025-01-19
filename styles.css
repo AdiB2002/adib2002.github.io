@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.sidebar {
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #00008B; 
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.publication-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.publication-item .title {
+    margin-bottom: 5px;
+    color: #343a40;
+    font-weight: normal;
+}
+
+.publication-item .authors {
+    margin-bottom: 5px;
+    color: #343a40;
+    font-style: italic;
+}
+
+.publication-item .authors strong {
+    font-weight: bold;
+}
+
+.publication-item .conference {
+    margin-bottom: 10px;
+    color: #343a40;
+    font-weight: normal;
+}
+
+.publication-item .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00008B;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.publication-item .links a:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #6c757d; /* Subtle gray color for the note */
+    font-style: italic;
+}
+
+.about-section {
+    font-size: 0.95rem; /* Smaller font size */
+    line-height: 1.6; /* Improved readability with line spacing */
+}
+
+.about-section a {
+    color: #00008B; /* Link color */
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    text-decoration: underline; /* Underline on hover for better usability */
+}
