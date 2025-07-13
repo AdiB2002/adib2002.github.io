@@ -384,16 +384,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-lotus-creating-short-videos-from-long-videos-with-abstractive-and-extractive-summarization-has-been-accepted-to-iui-2025",
+          title: 'Our paper Lotus: Creating short videos from long videos with abstractive and extractive...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-excited-to-be-working-with-professor-amy-zhang-at-the-university-of-washington-this-summer-through-the-uw-reu-program",
+          title: 'Excited to be working with Professor Amy Zhang at the University of Washington...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
