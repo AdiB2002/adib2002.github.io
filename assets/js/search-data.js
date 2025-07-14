@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-a-post-with-plotly-js",
+  },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -387,7 +380,7 @@ ninja.data = [{
             },},{id: "news-our-paper-lotus-creating-short-videos-from-long-videos-with-abstractive-and-extractive-summarization-has-been-accepted-to-iui-2025",
           title: 'Our paper Lotus: Creating short videos from long videos with abstractive and extractive...',
           description: "",
-          section: "News",},{id: "news-excited-to-be-working-with-professor-amy-zhang-at-the-university-of-washington-this-summer-through-the-uw-reu-program",
+          section: "News",},{id: "news-excited-to-be-working-with-professor-amy-zhang-at-the-university-of-washington-this-summer-through-the-dub-reu-program",
           title: 'Excited to be working with Professor Amy Zhang at the University of Washington...',
           description: "",
           section: "News",},{id: "projects-project-1",
